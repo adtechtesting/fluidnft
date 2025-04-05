@@ -1,16 +1,11 @@
 {
   "version": 2,
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    }
-  },
+  "buildCommand": "npm run build",
+  "installCommand": "npm install && npm rebuild",
+  "outputDirectory": ".next",
   "functions": {
-    "api/**.js": {
+    "api/**": {
       "runtime": "nodejs18.x"
     }
-  },
-  "installCommand": "npm install && npm rebuild",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  }
 }
