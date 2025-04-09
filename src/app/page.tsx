@@ -11,8 +11,8 @@ import {
   LucideIcon, 
 
 } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
-import { Particles } from '@/components/magicui/particles';
+import { Card, CardContent } from '../../components/ui/card';
+import { Particles } from '../../components/magicui/particles';
 
 interface FeatureCardProps {
   icon: LucideIcon,
